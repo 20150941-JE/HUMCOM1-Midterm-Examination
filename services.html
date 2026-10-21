@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body {
+      margin: 0;
+      padding-top: 170px;  
+      padding-bottom: 60px; 
+    }
+
+    header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 90px;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 50px;
+    }
+</style>
+
+<style>
+        table {
+            width: 600px;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+        }
+
+        caption {
+            font-size: 20px;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        th:nth-child(1), td:nth-child(1) {
+            width: 45%;
+        }
+
+        th:nth-child(2), td:nth-child(2) {
+            width: 30%;
+        }
+
+        th:nth-child(3), td:nth-child(3) {
+            width: 25%;
+        }
+    </style>
+
+<head style="overflow: hidden;">
+<body style="background-color: rgb(183, 213, 240);">
+    <header style="background-color: #22252A; padding: 30px;">
+        <h1 style="text-align: center; color: white;">
+            Jan Edric's Midterm Portfolio
+        </h1>
+        <center>
+        <a style="text-decoration: none; color: white;" href="index.html" style="text">HOME</a> |
+        <a style="text-decoration: none; color: white;" href="about.html">ABOUT</a> |
+        <a style="text-decoration: none; color: white;" href="services.html">SERVICES</a> |
+        <a style="text-decoration: none; color: white;" href="media.html">MEDIA</a> |
+        <a style="text-decoration: none; color: white;" href="contact.html">CONTACT</a> |
+        </center>
+        <hr class="header">
+    </header>
+    <center>
+    <img src="edric.jpg" alt="Profile Image" height="250px" width="250px"
+    style="border-radius: 50%; border: 5px solid;">
+    <h1>SERVICES</h1>
+    <table id="services-table" border="1">
+        <caption>Our Services and Rates</caption>
+
+        <thead>
+            <tr>
+                <th scope="col">Services Item</th>
+                <th scope="col">Turnaround</th>
+                <th scope="col">Rate</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Web Design</td>
+                <td>3–5 Days</td>
+                <td>₱2,000</td>
+            </tr>
+            <tr>
+                <td>Website Development</td>
+                <td>5–7 Days</td>
+                <td>₱5,000</td>
+            </tr>
+            <tr>
+                <td>Website Maintenance</td>
+                <td>1–2 Days</td>
+                <td>₱1,000</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="2">Total Rate</th>
+                <td>₱8,000</td>
+            </tr>
+        </tfoot>
+
+    </table>
+    </center>
+    <footer style="background-color: #22252A; padding: 20px;">
+        <hr class="footer">
+        <h4 style="text-align: center; color: white;">
+            ©Developed by Jan Edric Guerrero | HUMAN-COMPUTER INTERACTION
+        </h4>
+    </footer>
+</body>
+</head>
+</html>
